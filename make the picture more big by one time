@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水平线</title>
+    <link rel="stylesheet" href="../css/shui.css">
+    <img src="../img/桌面.jpg" alt="这是一个图片" class="tp">
+    <style?
+        h1{
+    background-color: rgba(136, 127, 255, 0.336);                 
+    text-align: center;
+}
+button {
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border-radius:5px;
+    border: 1px solid blue;
+    background: -webkit-linear-gradient(top,#66B5E6,#2e88c0);
+}
+#demo1 {
+    background-color: #2e88c0;
+    width: 200px;
+    height: 460px;
+}
+#demo2 {
+    background-color: red;
+    width: 200px;
+    height: 460px;
+}
+#demo3 {
+    background-color: greenyellow;
+    width: 200px;
+    height: 460px;
+}
+#demo4 {
+    background-color: green;
+    width: 200px;
+    height: 460px;
+}
+#demo5 {
+    background-color: pink;
+    width: 200px;
+    height: 460px;
+}
+a{
+    font-size: 30px;
+}
+a:hover {
+    color: blue;
+}
+.tp{
+    margin-left: 50px;
+    height: 80px;
+    width: 200px;
+}
+.tp:hover{
+    height: 160px;
+    width: 300px;
+    transition: 0.6s;
+}   
+    </style>
+</head>
+<body>
+    <h1>我的第一个页面</h1>
+    <p>this is a<b>IMG<s>cccc</s></b> program</p>
+    <hr/>
+    <p>this is a new program</p>
+    <hr/>
+    <p>你晚上<i>想不想</i>
+        <br/>视<u>pin</u><sup>2</sup>
+        <p>w sjo nei rong</p>
+    <ul>
+        <li id="demo1">1</li>
+        <li id="demo2">2</li>
+        <li id="demo3">3</li>
+        <li id="demo4">4</li>
+        <li id="demo5">5</li>
+    </ul>
+        <a href="#demo1">1</a>
+        <a href="#demo2">2</a>
+        <a href="#demo3">3</a>
+        <a href="#demo4">4</a>
+        <a href="#demo5">5</a>
+    <select ></select>
+    <input type="submit" name="submit" value="爱的摩天轮"/>
+    <input type="text" name="text" value="爱的摩天轮"/>
+    </p>
+    <form action=""></form>
+    qq账号<input type="text" placeholder="请输入用户名"><br>
+    密码<input type="password" placeholder="请输入密码"><br>
+    <button type="button">登陆</button>
+        <br>
+    <input type="checkbox">
+    <input type="file">
+    <form>
+            请输入性别:
+            <input  id="man"type="radio" name="gender">
+            <label for="man">男</label>
+            <input type="radio" name="gender" id="women">
+            <label for="women">女</label>
+            <select  id="" autofocus="autofocus">
+              <option value="">北京</option>
+              <option value="">上海</option>
+            </select>
+            <hr>
+            <textarea  value="我是文本"name="" id="" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html >
